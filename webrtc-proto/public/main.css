@@ -1,6 +1,15 @@
-.player {
-    position: absolute;
+.video {
     top:20px;
     right: 20px;
-    width:200px;
+    width: 400px;
   }
+
+body {
+    background-color: green;
+}
+
+h1 {
+    font-size: 30px;
+    color: white;
+    font-weight: 800
+}

@@ -13,9 +13,20 @@
 
 <body>
 <div>
-    Hello
+    <h1>MyFreeCams</h1>
 </div>
-<video class="player"></video>
+
+<video id="localVideo" class="video localVideo"  autoplay playsinline></video>
+<video id="remoteVideo" class="video remoteVideo"  autoplay playsinline></video>
+
+<div>
+    <button id="start">Start</button>
+    <button id="call">Call</button>
+    <button id="hangup">Hang</button>
+</div>
+
+<script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
 <script src='scripts.js'></script>
+
 </body>
 </html>
